@@ -1,0 +1,132 @@
+*{scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(255, 188, 219);
+    margin: 0;
+}
+#obal{
+background-color: rgb(202, 231, 241);
+height: 400vh;
+width:100%;
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows:1fr 45px 4fr 4fr 4fr 4fr ;
+}
+
+#hlavicka{
+    background-color: rgb(212, 167, 255);
+grid-column-start:1 ;
+grid-column-end:6;
+grid-row-start:1 ;
+grid-row-end:2;
+}
+h1{
+   text-size-adjust: 90px;
+   color: aliceblue;
+   text-align: center;
+   font-family:  'BIZ UDPMincho', serif;
+   
+  
+}
+h4 {
+  text-size-adjust: 90px;
+  text-align: center;
+  color: aliceblue;
+  font-family:  'BIZ UDPMincho', serif;
+  
+ 
+}
+
+p {
+  text-size-adjust: 90px;
+ 
+
+  color: aliceblue;
+  font-family:  'BIZ UDPMincho', serif;
+  
+ 
+}
+#menu{
+    background-color: rgb(248, 179, 216);
+grid-column-start:1;
+grid-column-end: 6;
+grid-row-start:2 ;
+grid-row-end:3;
+position: sticky;
+top: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(251, 184, 248);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(196, 69, 207);
+  }
+  
+
+#obsah1{
+    background-color: rgb(179, 215, 248);
+grid-column-start:1;
+grid-column-end: 6;
+grid-row-start:3 ;
+grid-row-end:4;
+padding-left: 10px;
+display: grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:1fr 1fr 1fr ;
+}
+
+#levytext{
+  background-color: rgb(179, 215, 248);
+grid-column-start:1;
+grid-column-end: 2;
+grid-row-start:1;
+grid-row-end:4;
+}
+#pravyobrazek{
+  grid-column-start:2;
+grid-column-end: 3;
+grid-row-start:2;
+grid-row-end:3;
+}
+
+#obsah2{
+    background-color: rgb(235, 255, 224);
+grid-column-start:1;
+grid-column-end: 6;
+grid-row-start:4;
+grid-row-end:5;
+}
+
+#obsah3{
+    background-color: rgb(195, 179, 248);
+grid-column-start:1;
+grid-column-end: 6;
+grid-row-start:5;
+grid-row-end:6;
+}
+
+#obsah4{
+    background-color: rgb(131, 145, 209);
+grid-column-start:1;
+grid-column-end: 6;
+grid-row-start:6;
+grid-row-end:7;
+}
